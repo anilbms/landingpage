@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page Header Design Pattern</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <style type="text/css">
+    html {
+    	width: 100%;
+    	height: 100%;
+    	background-image: url('bgImg.jpg');
+    	background-size: cover; 
+    }
+    body {
+    	max-width: 960px;
+    	margin: 15px auto 0;
+    	padding: 0;
+    	color: #fff;
+    }
+    #header-text {
+    	text-align: center;
+		font-size: 5em;
+		font-family: sans-serif;
+    }
+    #description-para {
+    	text-align: center;
+    	font-size: 1.8em;
+    }
+    fieldset {
+    	border: 0;
+    	text-align: center;
+    }
+    #email {
+    	border-radius: 3px;
+		border: 1px solid #d4d4d4;
+		padding: 5px;
+		width: 200px;
+		display: inline-block;
+		height: 25px;
+		font-size: 1em;
+    }
+    #submit {
+    	border-radius: 3px;
+		border: 1px solid #6D6868;
+		padding: 5px;
+		width: 150px;
+		display: inline-block;
+		height: 36px;
+		font-size: 1em;
+		background: #27BF27;
+		color: #fff;
+    }
+    </style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="#">
+				<img src="logo.jpg" alt="logo">
+			</a>
+		</nav>
+		<h1 id="header-text">Inspiration Header Text</h1>
+		<p id="description-para">Description about the application or idea</p>
+		<form>
+			<fieldset>
+					<input type="email" name="email" id="email" placeholder="Enter your email address" required>
+				<input type="submit" id ="submit" value="Sign up for Free">
+			</fieldset>
+		</form>
+	</header>
+</body>
+</html>
