@@ -30,26 +30,33 @@
     	border: 0;
     	text-align: center;
     }
-    #email {
+    fieldset>input {
     	border-radius: 3px;
+    	display: inline-block;
+    	font-size: 1em;
+    	padding: 5px;
+    	margin: 5px;
+    }
+    #email {
 		border: 1px solid #d4d4d4;
-		padding: 5px;
 		width: 200px;
-		display: inline-block;
 		height: 25px;
-		font-size: 1em;
     }
     #submit {
-    	border-radius: 3px;
 		border: 1px solid #6D6868;
-		padding: 5px;
 		width: 150px;
-		display: inline-block;
 		height: 36px;
-		font-size: 1em;
 		background: #27BF27;
 		color: #fff;
     }
+    @media (max-width: 600px) {
+	  nav {
+	  	text-align: center;
+	  }
+	  #header-text {
+			font-size: 3em;
+	   }
+	}
     </style>
 </head>
 <body>
